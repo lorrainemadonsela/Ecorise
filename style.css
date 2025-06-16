@@ -1,52 +1,111 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.ecoRise-logo{
+    position: absolute;
+    top: 5px;
+    width: 40vw;
+    height: 25vh;margin-bottom: 20px;
+}
 .fa-linkedin{
     position: absolute;
     left: 92%;
-    top: 10%;
+    top: 12%;
     display: flex;
 }
 .fa-facebook{
     position: absolute;
     left: 95%;
-    top: 10%;
+    top: 12%;
     display: flex;
 }
 .fa-square-instagram{
     position: absolute;
     left: 98%;
-    top: 10%;
+    top: 12%;
     display: flex;
 }
 .nav-bar{
+    position: absolute;
+    top: 200px;
     display: flex;
-    padding-left: 250px;
-    gap: 200px;
-    color: #ffffff;
+    padding-left: 1000px;
+    gap: 80px;
+    color: #000000;
 }
 #home{
     color: #d46304;
 }
-#background-image{
+#background-image {
     position: absolute;
     top: 200px;
-    height: 80vh;
+    height: 60vh;
+    opacity: 0.7;
 }
 .recycle-clothes{
     position: absolute;
     color: #ffffff;
-    top: 400px;
-    left: 700px;
+    top: 360px;
+    left: 300px;
+    font-size: xxx-large;
 }
 .text{
     position: absolute;
+    top: 550px;
+    left: 500px;
     color: #ffffff;
+    font-size: x-large;
 }
 .button{
     background-color: #942222;
     color: #ffffff;
+    font-size: larger;
+    position: absolute;
+    width: 30vw;
+    height: 4vh;
+    border-radius: 9px;
+    top: 730px;
+    left: 650px;
 }
 .video{
+    display: flex;
+    position: absolute;
+    top: 730px;
+    color: #faf9f9;
+    padding-left: 40px;
+    gap: 10px;
+    font-size: larger;
+}
+.fa-video{
+    margin-top: 20px;
+}
+.footer{
+    position: absolute;
+    top: 900px;
+    width: 98vw;
+    height: 60vh;
+    background-color: #d46304;
+}
+.info{
+    display: flex;
+    gap: 200px;
+    padding-left: 700px;
+    height: 30vh;
+    color: #ffffff;
+}
+.info1{
+    margin-top: 30px;
+}
+.info2{
+    margin-top: 30px;
+}
+.websites{
+    position: absolute;
+    padding-left: 950px;
+    margin-top: 150px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 200px;
     color: #ffffff;
 }
