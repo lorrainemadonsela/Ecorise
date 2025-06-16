@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between ;
+    width: 60vw;
+    left: 20%;
+    position: relative;
+}
+.find-location{
+    color: #942222;
+    left: 40%;
+    position: relative;
+    
+}
+
+
+.phone{
+    background-color:#DA6304;
+    padding: 12px 12px 12px 12px;
+    color: azure;
+}
+.location{
+    background-color:#DA6304;
+    padding: 12px 12px 12px 12px;
+    color: azure;
+
+}
+.email{
+    background-color:#DA6304;
+    padding: 12px 12px 12px 12px;
+    color: azure;
+    /* position: absolute; */
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.map{
+    position: relative;
+    left: 17%;
+    width: 100vw;
+}
+
+
+@media only screen and ( max-width:750px) and (min-width:430px){
+    .icon{
+        flex-direction: row;
+        width: 100vw;
+        justify-content: space-between;
+    }
+    find-location{
+    color: #942222;
+    left: 50%;
+    position: relative;
+    
+}
+
+
+.phone{
+    background-color:#DA6304;
+    padding: 12px 12px 12px 12px;
+    color: azure;
+    width: 80vw;
+    height: 40vw;
+}
+.location{
+    background-color:#DA6304;
+    padding: 12px 12px 12px 12px;
+    color: azure;
+
+}
+.email{
+    background-color:#DA6304;
+    padding: 12px 12px 12px 12px;
+    color: azure;
+    
+}
+.map{
+    position: relative;
+  padding-bottom: 100.25%; 
+  height: 0;
+  overflow: hidden;
+}
+}
