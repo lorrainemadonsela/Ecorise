@@ -42,9 +42,9 @@ body{
     height: 380vh;
     opacity: 0.7;
 }
-.nav-bar a{
+/* .nav-bar a{
     text-decoration: none;
-}
+} */
 .recycle-clothes{
     position: absolute;
     color: #ffffff;
