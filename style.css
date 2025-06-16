@@ -37,10 +37,13 @@ body{
     color: #d46304;
 }
 #background-image {
-    position: absolute;
+    position: fixed;
     top: 200px;
-    height: 60vh;
+    height: 380vh;
     opacity: 0.7;
+}
+.nav-bar a{
+    text-decoration: none;
 }
 .recycle-clothes{
     position: absolute;
